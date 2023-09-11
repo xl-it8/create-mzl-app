@@ -1,12 +1,12 @@
 {
   "name": "mzl-scripts",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "author": "李镜 <jing.li@skyee360.com>",
   "homepage": "",
   "license": "MIT",
   "main": "index.js",
-  "bin":{
+  "bin": {
     "react-scripts": "./bin/react-scripts.js"
   }
 }
