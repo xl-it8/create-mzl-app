@@ -8,5 +8,6 @@
   "main": "index.js",
   "dependencies": {
     "commander": "^11.0.0"
-  }
+  },
+  "gitHead": "deaf7d9e3ef57443fcabb6c6b2461a762fbab469"
 }

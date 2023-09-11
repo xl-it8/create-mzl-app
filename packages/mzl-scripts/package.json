@@ -8,5 +8,6 @@
   "main": "index.js",
   "bin": {
     "react-scripts": "./bin/react-scripts.js"
-  }
+  },
+  "gitHead": "deaf7d9e3ef57443fcabb6c6b2461a762fbab469"
 }
