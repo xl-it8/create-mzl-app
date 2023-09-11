@@ -1,0 +1,19 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "chalk": "4.1.2",
+    "cross-spawn": "^7.0.3",
+    "fs-extra": "^11.1.1"
+  },
+  "devDependencies": {
+    "lerna": "^7.2.0",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "scripts": {
+    "create-react-app": "node ./packages/create-react-app/index.js"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "cra-template2",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "李镜 <jing.li@skyee360.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "index.js"
+}
