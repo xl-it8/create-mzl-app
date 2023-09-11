@@ -14,6 +14,6 @@
     "webpack-dev-server": "^4.15.1"
   },
   "scripts": {
-    "create-app-mzl": "node ./packages/create-react-app/index.js"
+    "create-mzl-app": "node ./packages/create-react-app/index.js"
   }
 }
