@@ -1,9 +1,12 @@
 {
-  "name": "cra-template2",
+  "name": "mzl-scripts",
   "version": "0.0.0",
   "description": "> TODO: description",
   "author": "李镜 <jing.li@skyee360.com>",
   "homepage": "",
   "license": "MIT",
-  "main": "index.js"
+  "main": "index.js",
+  "bin":{
+    "react-scripts": "./bin/react-scripts.js"
+  }
 }

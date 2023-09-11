@@ -12,9 +12,9 @@ module.exports = function (
   const templatePath = path.dirname(
     require.resolve(`${templateName}/package.json`, { paths: [appPath] })
   ) //根据你给出的调用示例 require.resolve('${templateName}/package.json', { paths: [appPath] })，这表示你希望解析 ${templateName}/package.json 模块，并且搜索路径限定在 appPath 所指定的路径下。
-  console.log(appPath) //D:\projectAll\cli\create-react-app2\my-react-app2
-  console.log(templateName) //cra-template2
-  console.log(templatePath) //D:\projectAll\cli\create-react-app2\packages\cra-template2
+  //console.log(appPath) //D:\projectAll\cli\create-react-app2\my-react-app2
+  //console.log(templateName) //cra-template2
+  //console.log(templatePath) //D:\projectAll\cli\create-react-app2\packages\cra-template2
 
   appPackage.dependencies = appPackage.dependencies || {}
 

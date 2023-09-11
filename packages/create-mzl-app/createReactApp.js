@@ -46,10 +46,10 @@ async function createApp(name) {
 
 
 async function run(root, appName,originalDirectory){
-  let scriptName ='react-scripts2'
-  let templateName = 'cra-template2'
+  let scriptName ='mzl-scripts'
+  let templateName = 'mzl-cra-template'
 
-  const allDependencies = ['react', 'react-dom'];
+  const allDependencies = ['react', 'react-dom',scriptName, templateName];
 
   console.log('Installing packages. This might take a couple of minutes.');
   console.log(
@@ -61,7 +61,7 @@ async function run(root, appName,originalDirectory){
   );
 
   await install(root,allDependencies) //安装依赖
-  let packageName = 'react-scripts2'
+  let packageName = 'mzl-scripts'
   await exacuteNodeScript({
     cwd: process.cwd()//告知主进程要在哪个最新的目录开始执行命令
   },
@@ -79,7 +79,7 @@ async function install(root,allDependencies){
       let command;
       let args;
       command = 'yarnpkg';
-      args = ['add', '--exact',...allDependencies,'--cwd', root]; //--cwd安装到root目录中去  --exact 参数告诉包管理器只安装指定的版本，如果没有指定该参数，它可能会安装比指定版本更新的版本。
+      args = ['add', '--exact',...allDependencies,'--cwd', root]; //--cwd安装到root目录中去(改变工作目录)  --exact 参数告诉包管理器只安装指定的版本，如果没有指定该参数，它可能会安装比指定版本更新的版本。
 
      const child =  spawn(command, args, { stdio: 'inherit' });  //cross-spawn 是一个用于跨平台执行命令的第三方库。它可以在 Node.js 程序中以子进程的形式执行命令，并提供了一些额外的功能和便利性
      child.on('close',(code)=>{ //监听子进程是否成功
