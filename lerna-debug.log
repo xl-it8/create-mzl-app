@@ -1,0 +1,13 @@
+17 error Error: Command failed with exit code 1: git remote update
+17 error remote: Repository not found.
+17 error fatal: repository 'https://github.com/xl-it8/create-app-mzl.git/' not found
+17 error error: could not fetch create-app-mzl
+17 error Fetching create-app-mzl
+17 error Fetching origin
+17 error     at makeError (D:\projectAll\cli\create-react-app2\node_modules\@lerna\child-process\node_modules\execa\lib\error.js:60:11)
+17 error     at Function.module.exports.sync (D:\projectAll\cli\create-react-app2\node_modules\@lerna\child-process\node_modules\execa\index.js:194:17)
+17 error     at Object.execSync (D:\projectAll\cli\create-react-app2\node_modules\@lerna\child-process\index.js:39:16)
+17 error     at updateRemote (D:\projectAll\cli\create-react-app2\node_modules\lerna\dist\index.js:7574:18)
+17 error     at isBehindUpstream (D:\projectAll\cli\create-react-app2\node_modules\lerna\dist\index.js:7564:3)
+17 error     at VersionCommand.initialize (D:\projectAll\cli\create-react-app2\node_modules\lerna\dist\index.js:7871:57)
+17 error     at VersionCommand.runCommand (D:\projectAll\cli\create-react-app2\node_modules\lerna\dist\index.js:1740:36)
