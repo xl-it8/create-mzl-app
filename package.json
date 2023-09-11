@@ -1,6 +1,6 @@
 {
   "name": "create-mzl-app",
-  "private": true,
+  "private": false,
   "workspaces": [
     "packages/*"
   ],
