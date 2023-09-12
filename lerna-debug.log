@@ -1,0 +1,14 @@
+18 error Error: Command failed with exit code 1: git remote update
+18 error fatal: unable to access 'https://github.com/xl-it8/create-mzl-app.git/': OpenSSL SSL_read: Connection was reset, errno 10054
+18 error error: could not fetch origin
+18 error fatal: unable to access 'https://github.com/xl-it8/create-mzl-app.git/': Failed to connect to github.com port 443 after 21113 ms: Timed out
+18 error error: could not fetch create-mzl-app
+18 error Fetching origin
+18 error Fetching create-mzl-app
+18 error     at makeError (D:\projectAll\cli\create-react-app2\node_modules\@lerna\child-process\node_modules\execa\lib\error.js:60:11)
+18 error     at Function.module.exports.sync (D:\projectAll\cli\create-react-app2\node_modules\@lerna\child-process\node_modules\execa\index.js:194:17)
+18 error     at Object.execSync (D:\projectAll\cli\create-react-app2\node_modules\@lerna\child-process\index.js:39:16)
+18 error     at updateRemote (D:\projectAll\cli\create-react-app2\node_modules\lerna\dist\index.js:7574:18)
+18 error     at isBehindUpstream (D:\projectAll\cli\create-react-app2\node_modules\lerna\dist\index.js:7564:3)
+18 error     at VersionCommand.initialize (D:\projectAll\cli\create-react-app2\node_modules\lerna\dist\index.js:7871:57)
+18 error     at VersionCommand.runCommand (D:\projectAll\cli\create-react-app2\node_modules\lerna\dist\index.js:1740:36)

@@ -28,6 +28,8 @@ require.resolve是node.js提供的为模块或文件获取绝对路径的
 
   const templatePath = require.resolve(`${templateName}/package.json`, { paths: [appPath]})//根据你给出的调用示例 require.resolve('${templateName}/package.json', { paths: [appPath] })，这表示你希望解析 ${templateName}/package.json 模块，并且搜索路径限定在 appPath 所指定的路径下。
 
+npm login登录和npm官网的登录用户一样  但是需注意npm config registory 查出来的一定要是https://registry.npmjs.org/. 淘宝的公开注册权限没有 需要npm config set registory https://registry.npmjs.org/.
+
 ## 使用库
    commander 命令行参数处理
    chalk 给命令行指定颜色文字
